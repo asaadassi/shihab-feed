@@ -28,6 +28,34 @@
       "about": { "ar": "انقل ملفات مواقعك عبر FTP و SFTP بواجهة عربية، مع تراجع وحماية لكل تغيير.", "en": "Transfer your site files over FTP and SFTP, with undo and protection for every change." },
       "url": "https://github.com/asaadassi/ShihabFTP-releases/releases/latest",
       "icon": "E8B7"
+    },
+    {
+      "id": "ShihabRemote",
+      "name": { "ar": "Shihab Remote", "en": "Shihab Remote" },
+      "about": { "ar": "تحكّم بجهازك وجوالك عن بُعد مباشرة دون خوادم وسيطة.", "en": "Control your PC and phone remotely, directly, with no middle servers." },
+      "url": "https://github.com/asaadassi/shihabremote-releases/releases/latest",
+      "icon": "E703"
+    },
+    {
+      "id": "ShihabTamheed",
+      "name": { "ar": "تَمهيد", "en": "Tamheed" },
+      "about": { "ar": "جهّز ويندوز بعد الفورمات: البرامج والإعدادات والصيانة من مكان واحد.", "en": "Set up Windows after a fresh install: programs, settings and upkeep in one place." },
+      "url": "https://github.com/asaadassi/ShihabTamheed-releases/releases/latest",
+      "icon": "E90F"
+    },
+    {
+      "id": "ShihabCoach",
+      "name": { "ar": "Shihab Coach", "en": "Shihab Coach" },
+      "about": { "ar": "ارسم واشرح على شاشتك أثناء البث والاجتماعات: سبورة وتكبير ومؤقت وعرض الاختصارات.", "en": "Draw and explain on your screen while streaming or meeting: boards, zoom, timer and shortcut display." },
+      "url": "https://github.com/asaadassi/shihabcoach-releases/releases/latest",
+      "icon": "E70F"
+    },
+    {
+      "id": "ShihabMizanDesktop",
+      "name": { "ar": "Shihab Mizan", "en": "Shihab Mizan" },
+      "about": { "ar": "سجّل سندات مكتبك وفواتيره دون إنترنت، ويُرفع كل شيء إلى ميزان عند الاتصال.", "en": "Record your office's vouchers and invoices offline; everything uploads to Mizan when you're online." },
+      "url": "https://github.com/asaadassi/shihabmizan-desktop-releases/releases/latest",
+      "icon": "E8EF"
     }
   ],
   "announcements": []
