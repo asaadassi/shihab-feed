@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "apps": [
+    {
+      "id": "ShihabCam",
+      "name": { "ar": "Shihab Cam", "en": "Shihab Cam" },
+      "about": { "ar": "حوّل جوالك إلى كاميرا بث احترافية في OBS وZoom وTeams.", "en": "Turn your phone into a pro live camera for OBS, Zoom and Teams." },
+      "url": "https://github.com/asaadassi/shihabcam-releases/releases/latest",
+      "icon": "E722"
+    },
+    {
+      "id": "ShihabSourceRecord",
+      "name": { "ar": "Shihab Source Record", "en": "Shihab Source Record" },
+      "about": { "ar": "إضافة OBS تسجّل كل مصدر في ملف مستقل آمن من الانقطاع.", "en": "OBS plugin that records each source to its own crash-safe file." },
+      "url": "https://github.com/asaadassi/shihab-source-record-releases/releases/latest",
+      "icon": "E7C8"
+    },
+    {
+      "id": "ShihabMagnet",
+      "name": { "ar": "ShihabMagnet", "en": "ShihabMagnet" },
+      "about": { "ar": "أرشف المواقع الثابتة على جهازك وابنِ منها معرض أعمالك.", "en": "Archive static websites offline and build your portfolio gallery from them." },
+      "url": "https://github.com/asaadassi/shihabmagnet-releases/releases/latest",
+      "icon": "E774"
+    },
+    {
+      "id": "ShihabFTP",
+      "name": { "ar": "ShihabFTP", "en": "ShihabFTP" },
+      "about": { "ar": "انقل ملفات مواقعك عبر FTP و SFTP بواجهة عربية، مع تراجع وحماية لكل تغيير.", "en": "Transfer your site files over FTP and SFTP, with undo and protection for every change." },
+      "url": "https://github.com/asaadassi/ShihabFTP-releases/releases/latest",
+      "icon": "E8B7"
+    }
+  ],
+  "announcements": []
+}
