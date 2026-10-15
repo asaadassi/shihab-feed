@@ -16,6 +16,20 @@
       "icon": "E7C8"
     },
     {
+      "id": "ShihabNabd",
+      "name": { "ar": "نبض", "en": "Shihab Nabd" },
+      "about": { "ar": "إضافة OBS تراقب البث لحظة بلحظة: إحصاءات مباشرة وتنبيهات صامتة عن الاتصال.", "en": "OBS plugin that watches your broadcast live: stats panels and silent connection alerts." },
+      "url": "https://github.com/asaadassi/shihab-nabd-releases/releases/latest",
+      "icon": "E9D9"
+    },
+    {
+      "id": "ShihabBareeq",
+      "name": { "ar": "بريق", "en": "Shihab Bareeq" },
+      "about": { "ar": "إضافة OBS للعدّ التنازلي ورسوميات البث والمخرج التلقائي.", "en": "OBS plugin for countdowns, broadcast graphics and the Auto Director." },
+      "url": "https://github.com/asaadassi/shihab-bareeq-releases/releases/latest",
+      "icon": "E790"
+    },
+    {
       "id": "ShihabMagnet",
       "name": { "ar": "ShihabMagnet", "en": "ShihabMagnet" },
       "about": { "ar": "أرشف المواقع الثابتة على جهازك وابنِ منها معرض أعمالك.", "en": "Archive static websites offline and build your portfolio gallery from them." },
