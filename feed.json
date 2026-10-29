@@ -2,6 +2,13 @@
   "version": 1,
   "apps": [
     {
+      "id": "ShihabStore",
+      "name": { "ar": "متجر شهاب", "en": "Shihab Store" },
+      "about": { "ar": "كل تطبيقات شهاب آب في مكان واحد: ثبّتها وحدّثها بتوقيع شهاب آب.", "en": "Every Shihab App app in one place: install and update them, signed by Shihab App." },
+      "url": "https://shihab.app/store/",
+      "icon": "E719"
+    },
+    {
       "id": "ShihabCam",
       "name": { "ar": "Shihab Cam", "en": "Shihab Cam" },
       "about": { "ar": "حوّل جوالك إلى كاميرا بث احترافية في OBS وZoom وTeams.", "en": "Turn your phone into a pro live camera for OBS, Zoom and Teams." },
