@@ -1,0 +1,215 @@
+{
+  "version": 1,
+  "owner": "asaadassi",
+  "categories": [
+    { "id": "business", "name": { "ar": "الأعمال والحسابات", "en": "Business" } },
+    { "id": "streaming", "name": { "ar": "البث وOBS", "en": "Streaming & OBS" } },
+    { "id": "tools", "name": { "ar": "أدوات", "en": "Tools" } },
+    { "id": "education", "name": { "ar": "التعليم", "en": "Education" } },
+    { "id": "property", "name": { "ar": "العقارات", "en": "Property" } }
+  ],
+  "apps": [
+    {
+      "id": "ShihabStore",
+      "name": { "ar": "متجر شهاب", "en": "Shihab Store" },
+      "about": {
+        "ar": "تطبيقات شهاب آب في مكان واحد: ثبّتها وحدّثها بتوقيع شهاب آب.",
+        "en": "Shihab App's apps in one place: install and update them, signed by Shihab App."
+      },
+      "features": {
+        "ar": ["كل تطبيقات شهاب آب الرسمية في مكان واحد", "كل ملف يُفحص بتوقيع شهاب آب قبل تثبيته", "تحديث الكل بضغطة، وتلقائيًا على Wi-Fi إن شئت", "بلا حساب ولا جمع بيانات"],
+        "en": ["Every official Shihab App app in one place", "Every file is checked against Shihab App's signature before install", "Update all in one tap, or automatically on Wi-Fi if you like", "No account, no data collection"]
+      },
+      "category": "tools",
+      "android": { "repo": "shihab-store-releases", "asset": "ShihabStore-android", "package": "app.shihab.store", "minSdk": 24, "signerSha256": "a3fbf54f4435d61562df0370fe0073e3392bb31c684daf441358fca54af48dda" }
+    },
+    {
+      "id": "ShihabMizan",
+      "name": { "ar": "ميزان", "en": "Shihab Mizan" },
+      "about": {
+        "ar": "سجّل سندات مكتبك وفواتيره دون إنترنت، ويُرفع كل شيء إلى ميزان عند الاتصال.",
+        "en": "Record your office's vouchers and invoices offline; everything syncs to Mizan when you're back online."
+      },
+      "category": "business",
+      "android": { "repo": "shihabmizan-android-releases", "asset": "ShihabMizan-android", "package": "app.shihab.mizan", "minSdk": 26, "signerSha256": "a3fbf54f4435d61562df0370fe0073e3392bb31c684daf441358fca54af48dda" },
+      "windows": { "repo": "shihabmizan-desktop-releases", "asset": "ShihabMizanDesktop-Setup-*.exe", "innoAppId": "{5B3E9D27-8A41-4C6F-9E12-7D0A4F6B2C81}" }
+    },
+    {
+      "id": "ShihabRemote",
+      "name": { "ar": "Shihab Remote", "en": "Shihab Remote" },
+      "about": {
+        "ar": "تحكّم بجهازك وجوالك عن بُعد مباشرة دون خوادم وسيطة.",
+        "en": "Control your computer and phone remotely, directly, with no relay servers."
+      },
+      "category": "tools",
+      "android": { "repo": "shihabremote-releases", "asset": "ShihabRemote-android", "package": "app.shihab.remote", "minSdk": 29, "signerSha256": "a3fbf54f4435d61562df0370fe0073e3392bb31c684daf441358fca54af48dda" },
+      "windows": { "repo": "shihabremote-releases", "asset": "ShihabRemote-Setup-*.exe", "innoAppId": "{9C2E4B7A-51D3-4F86-A0E2-7B3D6C1F8E45}" }
+    },
+    {
+      "id": "ShihabCam",
+      "name": { "ar": "Shihab Cam", "en": "Shihab Cam" },
+      "about": {
+        "ar": "حوّل جوالك إلى كاميرا بث احترافية في OBS وZoom وTeams.",
+        "en": "Turn your phone into a pro live camera for OBS, Zoom and Teams."
+      },
+      "category": "streaming",
+      "android": { "repo": "shihabcam-releases", "asset": "ShihabCam-android", "package": "app.shihab.cam", "minSdk": 24, "signerSha256": "a3fbf54f4435d61562df0370fe0073e3392bb31c684daf441358fca54af48dda" },
+      "windows": { "repo": "shihabcam-releases", "asset": "ShihabCam-Setup-*.exe", "innoAppId": "{3E1B7C52-9A4D-4C8E-B6F1-2D7A5E9C4B18}" }
+    },
+    {
+      "id": "SceneController",
+      "name": { "ar": "مدير المشاهد", "en": "Scene Controller" },
+      "about": {
+        "ar": "تحكّم بمشاهد OBS Studio من جوالك عبر خادم WebSocket المدمج فيه.",
+        "en": "Control OBS Studio scenes from your phone through its built-in WebSocket server."
+      },
+      "category": "streaming",
+      "android": { "repo": "scene-controller-releases", "asset": "SceneController-android", "package": "app.shihab.scenecontroller", "minSdk": 26, "signerSha256": "a3fbf54f4435d61562df0370fe0073e3392bb31c684daf441358fca54af48dda" }
+    },
+    {
+      "id": "ShihabSourceRecord",
+      "name": { "ar": "Shihab Source Record", "en": "Shihab Source Record" },
+      "about": {
+        "ar": "إضافة OBS تسجّل كل مصدر في ملف مستقل آمن من الانقطاع.",
+        "en": "OBS plugin that records each source to its own crash-safe file."
+      },
+      "category": "streaming",
+      "windows": { "repo": "shihab-source-record-releases", "asset": "shihab-source-record-*-windows-x64-installer.exe", "innoAppId": "{8F3C2A91-6D4E-4B7A-9C01-5E2D8A7F4B13}}", "closeFirst": "OBS" }
+    },
+    {
+      "id": "ShihabNabd",
+      "name": { "ar": "نبض", "en": "Shihab Nabd" },
+      "about": {
+        "ar": "إضافة OBS تراقب البث لحظة بلحظة: إحصاءات مباشرة وتنبيهات صامتة عن الاتصال.",
+        "en": "OBS plugin that watches your broadcast: live stats and silent connection alerts."
+      },
+      "category": "streaming",
+      "windows": { "repo": "shihab-nabd-releases", "asset": "shihab-nabd-*-windows-x64-installer.exe", "innoAppId": "{17EA4B78-C3EE-45DE-AFAE-246D239A4828}}", "closeFirst": "OBS" }
+    },
+    {
+      "id": "ShihabBareeq",
+      "name": { "ar": "بريق", "en": "Shihab Bareeq" },
+      "about": {
+        "ar": "إضافة OBS للعدّ التنازلي ورسوميات البث والمخرج التلقائي.",
+        "en": "OBS plugin for countdowns, broadcast graphics and an automatic director."
+      },
+      "category": "streaming",
+      "windows": { "repo": "shihab-bareeq-releases", "asset": "shihab-bareeq-*-windows-x64-installer.exe", "innoAppId": "{F34B3BF9-288C-41DC-965C-FDB76EB40756}}", "closeFirst": "OBS" }
+    },
+    {
+      "id": "ShihabCoach",
+      "name": { "ar": "Shihab Coach", "en": "Shihab Coach" },
+      "about": {
+        "ar": "ارسم واشرح على شاشتك أثناء البث والاجتماعات: سبورة وتكبير ومؤقت وعرض الاختصارات.",
+        "en": "Draw and explain on your screen during streams and meetings: whiteboard, zoom, timer and key display."
+      },
+      "category": "streaming",
+      "windows": { "repo": "shihabcoach-releases", "asset": "ShihabCoach-Setup-*.exe", "innoAppId": "{8C4F2A61-3B7E-4D19-A5C2-6E0F9B1D7A34}" }
+    },
+    {
+      "id": "Warshat",
+      "name": { "ar": "ورشات", "en": "Warshat" },
+      "about": {
+        "ar": "تابع مشاريع ورشتك: المستلم والمصروف والرصيد ونسبة الإنجاز لكل مشروع.",
+        "en": "Track your workshop's projects: received, spent, balance and progress for each one."
+      },
+      "category": "business",
+      "android": { "repo": "warshat-releases", "asset": "Warshat-android", "package": "com.shihabapp.warshat", "minSdk": 26, "signerSha256": "a3fbf54f4435d61562df0370fe0073e3392bb31c684daf441358fca54af48dda" }
+    },
+    {
+      "id": "Qandil",
+      "name": { "ar": "قنديل", "en": "Qandil" },
+      "about": {
+        "ar": "فتاوى مبوّبة على أبواب الفقه وموثّقة بأدلتها، تُقرأ وتُحفظ حتى دون اتصال.",
+        "en": "Fatwas organized by chapters of fiqh and backed by their evidence, readable and saved even offline."
+      },
+      "category": "education",
+      "android": { "repo": "qandil-releases", "asset": "Qandil-android", "package": "com.shihabapp.qandil", "minSdk": 24, "signerSha256": "a3fbf54f4435d61562df0370fe0073e3392bb31c684daf441358fca54af48dda" }
+    },
+    {
+      "id": "ShihabSiraj",
+      "name": { "ar": "سِراج", "en": "Siraj" },
+      "about": {
+        "ar": "تطبيق المعلم لنظام سِراج: حلقات اليوم والتفقد والتسميع حتى دون اتصال، ثم الرفع التلقائي.",
+        "en": "The teacher's app for Siraj: today's circles, attendance and recitation, even offline, then automatic upload."
+      },
+      "category": "education",
+      "android": { "repo": "shihabsiraj-android-releases", "asset": "ShihabSiraj-android", "package": "app.shihab.siraj", "minSdk": 26, "signerSha256": "a3fbf54f4435d61562df0370fe0073e3392bb31c684daf441358fca54af48dda" }
+    },
+    {
+      "id": "ShihabBarcode",
+      "name": { "ar": "باركود", "en": "Barcode" },
+      "about": {
+        "ar": "حوّل جوالك إلى قارئ باركود يعمل ككيبورد بلوتوث.",
+        "en": "Turn your phone into a Bluetooth keyboard barcode scanner."
+      },
+      "category": "tools",
+      "android": { "repo": "shihab-barcode-releases", "asset": "ShihabBarcode-android", "package": "com.shihabapp.barcode", "minSdk": 28, "signerSha256": "a3fbf54f4435d61562df0370fe0073e3392bb31c684daf441358fca54af48dda" },
+      "windows": { "repo": "shihab-barcode-releases", "asset": "ShihabBarcodeReceiver-Setup-*.exe", "innoAppId": "{6B0E2F8A-3C41-4D7B-9E25-1A7C4F0B8D63}", "tagPrefix": "receiver" }
+    },
+    {
+      "id": "Liwan",
+      "name": { "ar": "ليوان", "en": "Liwan" },
+      "about": { "ar": "دليل العقارات من شهاب آب.", "en": "The property guide from Shihab App." },
+      "category": "property",
+      "android": { "repo": "liwan-releases", "asset": "Liwan-android", "package": "" }
+    },
+    {
+      "id": "LiwanAdmin",
+      "name": { "ar": "ليوان للإدارة", "en": "Liwan Admin" },
+      "about": { "ar": "تطبيق الوكلاء ومدير المكتب في ليوان.", "en": "Liwan's app for agents and the office manager." },
+      "category": "property",
+      "android": { "repo": "liwan-releases", "asset": "Liwan-admin-android", "package": "" }
+    },
+    {
+      "id": "ShihabFTP",
+      "name": { "ar": "ShihabFTP", "en": "ShihabFTP" },
+      "about": {
+        "ar": "انقل ملفات مواقعك عبر FTP و SFTP بواجهة عربية، مع تراجع وحماية لكل تغيير.",
+        "en": "Move your sites' files over FTP and SFTP in an Arabic interface, with undo and protection for every change."
+      },
+      "category": "tools",
+      "windows": { "repo": "ShihabFTP-releases", "asset": "ShihabFTP-Setup-*.exe", "innoAppId": "" }
+    },
+    {
+      "id": "ShihabTamheed",
+      "name": { "ar": "تَمهيد", "en": "Tamheed" },
+      "about": {
+        "ar": "جهّز ويندوز بعد الفورمات: البرامج والإعدادات والصيانة من مكان واحد.",
+        "en": "Set up Windows after a fresh install: apps, settings and maintenance in one place."
+      },
+      "category": "tools",
+      "windows": { "repo": "ShihabTamheed-releases", "asset": "ShihabTamheed-Setup-*.exe", "innoAppId": "{8C9521B9-CD63-47DA-A657-4F3D4CB7DA67}" }
+    },
+    {
+      "id": "ShihabMagnet",
+      "name": { "ar": "ShihabMagnet", "en": "ShihabMagnet" },
+      "about": {
+        "ar": "أرشف المواقع الثابتة على جهازك وابنِ منها معرض أعمالك.",
+        "en": "Archive static sites on your computer and build your portfolio from them."
+      },
+      "category": "tools",
+      "windows": { "repo": "shihabmagnet-releases", "asset": "ShihabMagnet-Setup-*.exe", "innoAppId": "{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}" }
+    },
+    {
+      "id": "ShihabAlaq",
+      "name": { "ar": "ألق", "en": "Alaq" },
+      "about": {
+        "ar": "خصّص ويندوز 10 و11 بإضافات من متجر شهاب.",
+        "en": "Customize Windows 10 and 11 with mods from the Shihab store."
+      },
+      "category": "tools",
+      "windows": { "repo": "shihab-alaq-releases", "asset": "ShihabAlaq-Setup-*.exe", "innoAppId": "{5B7E1C3A-9D24-4F6B-8A1E-2C7D9F0B4E61}" }
+    },
+    {
+      "id": "SabrAwqafEntry",
+      "name": { "ar": "صبر أوقاف: إدخال العلامات", "en": "Sabr Awqaf Entry" },
+      "about": {
+        "ar": "إدخال علامات صبر أوقاف دون اتصال.",
+        "en": "Offline marks entry for Sabr Awqaf."
+      },
+      "category": "education",
+      "windows": { "repo": "shihabawqaf-entry-releases", "asset": "ShihabAwqafEntry-Setup-*.exe", "innoAppId": "{2C9285DD-5733-4D61-86D4-DA3B54583C6D}" }
+    }
+  ]
+}
