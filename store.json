@@ -169,7 +169,7 @@
         "en": "Move your sites' files over FTP and SFTP in an Arabic interface, with undo and protection for every change."
       },
       "category": "tools",
-      "windows": { "repo": "ShihabFTP-releases", "asset": "ShihabFTP-Setup-*.exe", "innoAppId": "" }
+      "windows": { "repo": "ShihabFTP-releases", "asset": "ShihabFTP-Setup-*.exe", "innoAppId": "", "uninstallKey": "ShihabFTP" }
     },
     {
       "id": "ShihabTamheed",
@@ -179,7 +179,7 @@
         "en": "Set up Windows after a fresh install: apps, settings and maintenance in one place."
       },
       "category": "tools",
-      "windows": { "repo": "ShihabTamheed-releases", "asset": "ShihabTamheed-Setup-*.exe", "innoAppId": "{8C9521B9-CD63-47DA-A657-4F3D4CB7DA67}" }
+      "windows": { "repo": "ShihabTamheed-releases", "asset": "ShihabTamheed-Setup-*.exe", "innoAppId": "{8C9521B9-CD63-47DA-A657-4F3D4CB7DA67}", "uninstallKey": "ShihabTamheed" }
     },
     {
       "id": "ShihabMagnet",
@@ -189,7 +189,7 @@
         "en": "Archive static sites on your computer and build your portfolio from them."
       },
       "category": "tools",
-      "windows": { "repo": "shihabmagnet-releases", "asset": "ShihabMagnet-Setup-*.exe", "innoAppId": "{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}" }
+      "windows": { "repo": "shihabmagnet-releases", "asset": "ShihabMagnet-Setup-*.exe", "innoAppId": "{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}", "uninstallKey": "ShihabMagnet" }
     },
     {
       "id": "ShihabAlaq",
@@ -203,9 +203,9 @@
     },
     {
       "id": "SabrAwqafEntry",
-      "name": { "ar": "صبر أوقاف: إدخال العلامات", "en": "Sabr Awqaf Entry" },
+      "name": { "ar": "سبر الأوقاف: إدخال العلامات", "en": "Sabr Awqaf Entry" },
       "about": {
-        "ar": "إدخال علامات صبر أوقاف دون اتصال.",
+        "ar": "إدخال علامات سبر الأوقاف دون اتصال.",
         "en": "Offline marks entry for Sabr Awqaf."
       },
       "category": "education",
